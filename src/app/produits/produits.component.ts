@@ -39,7 +39,7 @@ currentKeyword:string="";
   
     onPageProduct(i: number) {
       this.currentPage=i;
-      this.chercherProduit();
+      this.onGetProducts();
       }
 
       onChercher(form:any){
@@ -60,13 +60,6 @@ currentKeyword:string="";
         });
       }
 
-     
-
-    onEditProduct(id:number){
-
-      this.router.navigate(['']);
-
-    }
     
     onDeleteProduct(p:any){
       let confirm=window.confirm('Voulez vous poursuivre cette action?');
@@ -79,6 +72,13 @@ currentKeyword:string="";
           }, error: (err) =>console.log(err)
         });
       }
+
+    }
+
+    onEditProduct(p:any){
+      let url=p._links.self.href;
+      //Codage de l'url en base 64 pour recuperer id
+      this.router.navigateByUrl("/edit-products/"+btoa(url));
 
     }
 

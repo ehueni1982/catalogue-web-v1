@@ -34,5 +34,15 @@ export class CatalogueService {
       return this.httpClient.post(url,data);
     }
 
+    getEditProduct(url:any):Observable<Produit>{
+      return this.httpClient.get(url);
+    }
+
+    UpdateProduct(url:any,data:any){
+      return this.httpClient.put(url,data);
+    }
+
+    
+
 
 }
