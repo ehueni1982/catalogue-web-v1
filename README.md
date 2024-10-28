@@ -1,5 +1,30 @@
 # CatalogueWebV1
 
+Quelques réalisations en images :
+
+>Créer un Produit
+![image](https://github.com/user-attachments/assets/a95130ba-154a-4027-8181-46060da110d4)
+>
+>![image](https://github.com/user-attachments/assets/2f127824-cf44-49f9-be27-0031082d6eb4)
+
+
+
+>Rechercher Produit
+![image](https://github.com/user-attachments/assets/78c89492-04ad-4b68-9936-0562f7d68eae)
+>
+>![image](https://github.com/user-attachments/assets/55ef3036-169c-4d1d-8da5-87bb8dd1445e)
+
+
+>Modifier un Produit
+>![image](https://github.com/user-attachments/assets/3366b0d9-ba29-4689-acaa-74eac0b0e6a7)
+>
+>![image](https://github.com/user-attachments/assets/ac877727-fbb4-410c-a2f4-135f2a14f0a0)
+>
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
 
 ## Development server
